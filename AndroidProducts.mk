@@ -16,12 +16,12 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_quill.mk \
-    $(LOCAL_DIR)/lineage_quill.mk
+    $(LOCAL_DIR)/lmodroid_quill.mk
 
 COMMON_LUNCH_CHOICES := \
     full_quill-eng \
     full_quill-user \
     full_quill-userdebug \
-    lineage_quill-eng \
-    lineage_quill-user \
-    lineage_quill-userdebug
+    lmodroid_quill-eng \
+    lmodroid_quill-user \
+    lmodroid_quill-userdebug

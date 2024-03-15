@@ -13,11 +13,11 @@
 # limitations under the License.
 
 # Inherit some common lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_tv.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_tv.mk)
 
 # Inherit device configuration for quill.
 include device/nvidia/quill/lineage.mk
 $(call inherit-product, device/nvidia/quill/full_quill.mk)
 
-PRODUCT_NAME := lineage_quill
+PRODUCT_NAME := lmodroid_quill
 PRODUCT_DEVICE := quill

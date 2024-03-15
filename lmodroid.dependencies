@@ -1,0 +1,81 @@
+[
+  {
+    "remote": "lineage",
+    "repository": "android_bootable_cboot_lk",
+    "target_path": "bootable/cboot/lk"
+  },
+  {
+    "repository": "LMODroid-Devices/device_nvidia_shield-common",
+    "target_path": "device/nvidia/shield-common"
+  },
+  {
+    "repository": "LMODroid-Devices/device_nvidia_t186-common",
+    "target_path": "device/nvidia/t186-common"
+  },
+  {
+    "branch": "lineage-20_4.9",
+    "remote": "lineage",
+    "repository": "android_kernel_nvidia_kernel",
+    "target_path": "kernel/nvidia/kernel-4.9"
+  },
+  {
+    "remote": "lineage",
+    "repository": "android_kernel_nvidia_nvidia",
+    "target_path": "kernel/nvidia/nvidia"
+  },
+  {
+    "remote": "lineage",
+    "repository": "android_kernel_nvidia_nvgpu",
+    "target_path": "kernel/nvidia/nvgpu"
+  },
+  {
+    "remote": "lineage",
+    "repository": "android_kernel_nvidia_wireguard",
+    "target_path": "kernel/nvidia/wireguard"
+  },
+  {
+    "remote": "lineage",
+    "repository": "android_hardware_nvidia_boot_control",
+    "target_path": "hardware/nvidia/boot_control"
+  },
+  {
+    "remote": "lineage",
+    "repository": "android_hardware_nvidia_hdmi-cec",
+    "target_path": "hardware/nvidia/hdmi-cec"
+  },
+  {
+    "remote": "lineage",
+    "repository": "android_hardware_nvidia_interfaces",
+    "target_path": "hardware/nvidia/interfaces"
+  },
+  {
+    "remote": "lineage",
+    "repository": "android_hardware_nvidia_light",
+    "target_path": "hardware/nvidia/light"
+  },
+  {
+    "remote": "lineage",
+    "repository": "android_hardware_nvidia_platform_t18x_lanai",
+    "target_path": "hardware/nvidia/platform/t18x/lanai"
+  },
+  {
+    "remote": "lineage",
+    "repository": "android_hardware_nvidia_platform_t18x_quill",
+    "target_path": "hardware/nvidia/platform/t18x/quill"
+  },
+  {
+    "remote": "lineage",
+    "repository": "android_hardware_nvidia_power",
+    "target_path": "hardware/nvidia/power"
+  },
+  {
+    "remote": "lineage",
+    "repository": "android_hardware_nvidia_thermal",
+    "target_path": "hardware/nvidia/thermal"
+  },
+  {
+    "remote": "lineage",
+    "repository": "android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-9.3",
+    "target_path": "prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-9.3"
+  }
+]
