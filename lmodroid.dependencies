@@ -13,6 +13,11 @@
     "target_path": "device/nvidia/t186-common"
   },
   {
+    "remote": "lineage",
+    "repository": "android_kernel_nvidia_exfat",
+    "target_path": "kernel/nvidia/exfat"
+  },
+  {
     "branch": "lineage-20_4.9",
     "remote": "lineage",
     "repository": "android_kernel_nvidia_kernel",
