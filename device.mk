@@ -39,7 +39,7 @@ TARGET_TEGRA_WIREGUARD ?= compat
 include device/nvidia/t186-common/t186.mk
 
 # System properties
-include $(LOCAL_PATH)/system_prop.mk
+include device/nvidia/quill/system_prop.mk
 
 PRODUCT_CHARACTERISTICS   := tv
 PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi mdpi hdpi tvdpi
@@ -77,12 +77,21 @@ ifeq ($(PRODUCT_IS_ATV),true)
 endif
 
 # Audio
-ifneq ($(filter rel-shield-r, $(TARGET_TEGRA_AUDIO)),)
+ifneq ($(TARGET_TEGRA_AUDIO),)
 PRODUCT_PACKAGES += \
     audio_effects.xml \
-    audio_policy_configuration.xml \
+    audio_policy_configuration.xml
+
+ifeq ($(TARGET_TEGRA_AUDIO),tinyhal)
+PRODUCT_PACKAGES += \
+    audio.lanai.xml \
+    audio.quill.xml
+
+else ifneq ($(filter rel-shield-r, $(TARGET_TEGRA_AUDIO)),)
+PRODUCT_PACKAGES += \
     nvaudio_conf.xml \
     nvaudio_fx.xml
+endif
 endif
 
 # Kernel
